@@ -5,16 +5,10 @@
   "engines": {
     "node": ">=16.x"
   },
-  "description": "Library to read and validate links",
-  "author": {
-    "name": "Ericka Gonzales"
-  },
   "devDependencies": {
     "eslint": "^8.41.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5"
-  },
-  "dependencies": {
-    "markdown-link-extractor": "^3.1.0"
   }
 }
+

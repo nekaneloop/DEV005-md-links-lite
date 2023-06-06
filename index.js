@@ -1,7 +1,6 @@
 const { checkExtension } = require('./src/checkExtension');
 const { checkRoute } = require('./src/pathRoute');
 const { readingFile } = require('./src/readingFiles');
-// Funcion Mdlinks que llaman a otras funciones pequeñas (convertir y validar ruta)
 
 function mdLinks(path, options) {
   return new Promise((resolve, reject) => {
