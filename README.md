@@ -1,4 +1,4 @@
-# Markdown Links
+e# Markdown Links
 
 ## Índice
 
@@ -286,7 +286,7 @@ siguiente interfaz:
 ##### Argumentos
 
 * `path`: Ruta **absoluta** o **relativa** al **archivo** o **directorio**.
-Si la ruta pasada es relativa, debe resolverse como relativa al directorio
+Si la ruta pasada es relativa, debe resolverse como relativa al 
 desde donde se invoca node - _current working directory_).
 * `options`: Un objeto con **únicamente** la siguiente propiedad:
   - `validate`: Booleano que determina si se desea validar los links
