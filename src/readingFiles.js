@@ -21,8 +21,7 @@ Según leí conviene usar el window.document ya que se utiliza para leer el obje
 Llamo a todos los 'tags' que son enlaces y los recorro. Llamo a mis arrays
 asumiendo que ya están ahí. Y recorro por forEach, iba a usar map,
 PERO el map crea otro array.
-Añadí un forEach que crea la copia de un objeto (?), segun documentación
- */
+Añadí un forEach que crea la copia de un objeto (?), segun documentación */
 
 const extractLinks = (moods, file) => {
   marked.setOptions({ mangle: false, headerIds: false });
@@ -48,19 +47,19 @@ const readingFile = (file) => new Promise((resolve, reject) => {
       reject(err);
     } else {
       const resultLinks = extractLinks(data);
-      console.log(resultLinks, 34);
-      resolve(data);
+      // console.log(resultLinks, 34);
+      resolve(resultLinks);
     }
   });
 });
 
-readingFile('D:/ProyectoLaboratoria4/DEV005-md-links-lite/example/text.md')
+/* readingFile('D:/ProyectoLaboratoria4/DEV005-md-links-lite/example/text.md')
   .then((response) => {
     console.log(response, 58);
   })
   .catch((err) => {
     console.error(err.message, 61);
-  });
+  }); */
 
 module.exports = {
   readingFile,

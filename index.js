@@ -1,6 +1,6 @@
 const { checkExtension } = require("./src/checkExtension");
 const { checkRoute } = require("./src/pathRoute");
-// const { readingFile } = require('./src/readingFiles');
+const { validateLinks } = require('./src/validateLinks');
 
 function mdLinks(path, options) {
   return new Promise((resolve, reject) => {
@@ -15,7 +15,8 @@ function mdLinks(path, options) {
     resolve(isMd);
     readingFile(abosoluteRoute)
       .then((res) => {
-        console.log(res, 19);
+        // console.log(res, 19);
+        validateLinks(res);
       })
       .catch((err) => {
         console.log(err, 22);
