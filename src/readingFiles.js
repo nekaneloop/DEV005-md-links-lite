@@ -46,12 +46,14 @@ const readingFile = (file) => new Promise((resolve, reject) => {
     if (err) {
       reject(err);
     } else {
-      const resultLinks = extractLinks(data);
+      const resultLinks = extractLinks(data, file);
       // console.log(resultLinks, 34);
       resolve(resultLinks);
     }
   });
 });
+
+// orden de los argumentos 
 
 /* readingFile('D:/ProyectoLaboratoria4/DEV005-md-links-lite/example/text.md')
   .then((response) => {

@@ -2,7 +2,7 @@ const mdLinks = require('../index');
 
 // ejecutar la funcion mdlinks
 
-console.log('hey', readingFiles('./example/text-two.md'));
+// console.log('hey', readingFiles('./example/text-two.md'));
 
 mdLinks('./example/text.md', { validate: false })
   .then((result) => {
