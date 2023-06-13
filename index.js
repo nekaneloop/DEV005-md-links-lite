@@ -20,9 +20,9 @@ function mdLinks(path, options) {
     // resolve(isMd);
     readingFile(abosoluteRoute)
       .then((res) => {
-        // console.log(res, 19);
-        validateLinks(res).then((res2) => {
-          resolve(res2);
+        // console.log(res, 19); cambiar el res2
+        validateLinks(res).then((resAgain) => {
+          resolve(resAgain);
         });
       })
       .catch((err) => {
