@@ -9,10 +9,10 @@ análisis de archivos, verificación de rutas, identificación de extensiones y 
 
 ### Demostración 🔗
 Si cumple con la ruta y se demuestra que el link no está 'roto' => ___'OK :)'___
-![](./img/ok.jpg)
+![](./img/ok.png)
 
 Si se demuestra que el link está 'roto' => ___'FAIL :('___
-![](./img/fail.jpg)
+![](./img/fail.png)
 
 
 
