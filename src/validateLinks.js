@@ -1,6 +1,5 @@
 // Para la búsqueda del HTTP
-const fetch = require('node-fetch');
-
+// const fetch = require('node-fetch');
 // Creamos una funcion que reciba un array de objetos
 const validateLinks = (arrLinks) => {
 /* Asignamos una constante, usando nuestro parámetro que son  nuestros links. Luego,

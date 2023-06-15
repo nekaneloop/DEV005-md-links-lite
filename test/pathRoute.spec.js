@@ -1,4 +1,3 @@
-const fs = require('fs');
 const { checkRoute } = require('../src/pathRoute');
 
 // argumento, resultado que esperas, resultado verdadero.
