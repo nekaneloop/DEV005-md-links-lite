@@ -1,6 +1,7 @@
-// const fetch = require('node-fetch');
-// const jest = require('jest');
-// const { validateLinks } = require('../src/validateLinks');
+const fetch = require('node-fetch');
+const { validateLinks } = require('../src/validateLinks');
+
+const jest = requiere('@jest/globals');
 
 // jest.mock('node-fetch', () => jest.fn());
 
@@ -21,3 +22,14 @@ describe('validateLinks', () => {
       }));
   expect(allData).toEqual()
   }); */
+// Taer la funcion, si responde ok esta bien, de lo contrario es fail. en promesa
+
+describe('validateLinks', () => {
+  test('is a function', () => {
+    expect(typeof validateLinks).toBe('function');
+  })
+  test('founding https//:', async () => {
+  const = 
+   {
+  });
+});
