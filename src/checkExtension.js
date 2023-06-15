@@ -14,5 +14,5 @@ const checkExtension = (road) => {
 };
 
 module.exports = {
-  checkExtension
+  checkExtension,
 };

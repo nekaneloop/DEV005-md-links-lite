@@ -9,10 +9,10 @@ Queremos que cada uno se modifique y se agregue el status */
   const validateArr = arrLinks.map((obj) => fetch(obj.href)
     .then((response) => {
       let status;
-      if (response.status < 404 === true) {
-        status = 'OK';
+      if (response.status === 200) {
+        status = 'OK :)';
       } else {
-        status = 'FAIL';
+        status = 'FAIL :(';
       }
       // Copia al objeto agregando el 'status'
       return {
@@ -20,7 +20,7 @@ Queremos que cada uno se modifique y se agregue el status */
         status,
       };
     })
-    .catch((error) => console.log('Algo no salió bien')));
+    .catch((error) => console.log(error, 'A link is failing :(')));
   // Combinamos todas las promesas (resueltas) en una sola
   return Promise.all(validateArr);
 };
