@@ -19,7 +19,7 @@
     "@jest/globals": "^29.5.0",
     "@types/marked": "^5.0.0",
     "jsdom": "^22.1.0",
-    "marked": "^5.0.5",
+    "marked": "^5.1.0",
     "node-fetch": "^2.6.11"
   }
 }
