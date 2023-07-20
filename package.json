@@ -20,6 +20,6 @@
     "@types/marked": "^5.0.0",
     "jsdom": "^22.1.0",
     "marked": "^5.0.5",
-    "node-fetch": "^2.6.11"
+    "node-fetch": "^2.6.12"
   }
 }
