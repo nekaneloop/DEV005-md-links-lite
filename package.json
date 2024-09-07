@@ -16,9 +16,9 @@
     "test": "jest --verbose --coverage"
   },
   "dependencies": {
-    "@jest/globals": "^29.5.0",
+    "@jest/globals": "^29.6.0",
     "@types/marked": "^5.0.0",
-    "jsdom": "^22.1.0",
+    "jsdom": "^24.1.1",
     "marked": "^5.0.5",
     "node-fetch": "^2.6.11"
   }
